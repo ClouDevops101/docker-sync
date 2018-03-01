@@ -1,4 +1,4 @@
-# Docker Sync Python 2.7 
+# Docker Sync Python 2.7 (original project https://github.com/dvddarias/docker-sync) 
 
 A script to synchronize docker images between hosts with emphasis on reducing the amount of data transfered. It is a pure python3 script, does **not** depend on the docker registry and has **no dependencies** on the remote server you are synchronizing with.
 
@@ -54,7 +54,7 @@ Nothing was synchronized yet, this is just to see the status of all the images:
 
 To sync the redis image run
 
-	>> python3 docker-sync user@myamazingweb.com redis:latest
+	>> python docker-sync user@myamazingweb.com redis:latest
 
 Please run the script with `--help` for further details.
 
