@@ -1,4 +1,4 @@
-# Docker Sync
+# Docker Sync Python 2.7 
 
 A script to synchronize docker images between hosts with emphasis on reducing the amount of data transfered. It is a pure python3 script, does **not** depend on the docker registry and has **no dependencies** on the remote server you are synchronizing with.
 
